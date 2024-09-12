@@ -1,0 +1,68 @@
+ion-toolbar {
+    --background: rgb(120, 112, 124) !important; /* Aplica el fondo negro */
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fondo {
+    background-image: url('../../assets/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    --background: none;
+}
+.bienvenida{
+    margin-top: 30px;
+    text-align: center;
+    color: #F5F5DC;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.nombre{
+    color: #c2c297;
+    font-size: 30px;
+    font-weight: bold;
+}
+.spinner-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%; 
+  text-align: center;
+}
+.spinner-container h5{
+    color: #F5F5DC;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.spinner-container p{
+    color: #F5F5DC;
+    font-size: 14px;
+}
+.mat-icon{
+    font-size: 60px;
+    overflow: visible;
+    width: 100px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    h4{
+        color: #F5F5DC;
+    }
+}
+.boton-qr{
+    background: none;
+}   

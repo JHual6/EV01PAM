@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo" style="color: #F8B415;">Duoc<b style="color: #001B35;">UC</b></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="fondo">
+  <div class="bienvenida">
+    <label>Bienvenido</label>
+    <br>
+    <label class="nombre" for="username">{{ username }}</label>
+  </div>
+
+  <div class="spinner-grid">
+    <div class="spinner-container">
+      <h5>Asignatura 1</h5>
+      <p>90%</p>
+      <mat-progress-spinner mode="determinate" [value]="90" color="accent"></mat-progress-spinner>
+    </div>
+    <div class="spinner-container">
+      <h5>Asignatura 2</h5>
+      <p>80%</p>
+      <mat-progress-spinner mode="determinate" [value]="80" color="accent"></mat-progress-spinner>
+    </div>
+    <div class="spinner-container">
+      <h5>Asignatura 3</h5>
+      <p>85%</p>
+      <mat-progress-spinner mode="determinate" [value]="85" color="accent"></mat-progress-spinner>
+    </div>
+    <div class="spinner-container">
+      <h5>Asignatura 4</h5>
+      <p>70%</p>
+      <mat-progress-spinner mode="determinate" [value]="70" color="warn"></mat-progress-spinner>
+    </div>
+  </div>
+  <div class="button-container">
+    <h4>Escanear QR:</h4>
+    <button mat-fab extended class="boton-qr" (click)="escanearQR()">
+      <mat-icon style="color: #F5F5DC;">qr_code</mat-icon>
+    </button>
+  </div>
+</ion-content>
